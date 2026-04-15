@@ -1,0 +1,10 @@
+### 1. Tạo mới
+POST http://localhost:8080/customers?name=Hải&job=Ăn cướp
+
+### 2. Lấy danh sách tất cả
+GET http://localhost:8080/customers
+
+### 3. Lấy thông tin một khách
+GET http://localhost:8080/customers/290550ce-4579-4c86-9ec5-f88f65c6a52b
+### 4. Xóa
+DELETE http://localhost:8080/customers/290550ce-4579-4c86-9ec5-f88f65c6a52b
